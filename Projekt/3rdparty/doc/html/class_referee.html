@@ -1,0 +1,342 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Referee: Referee Klassenreferenz</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Referee
+   &#160;<span id="projectnumber">61</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Erzeugt von Doxygen 1.8.6 -->
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Hauptseite</span></a></li>
+      <li class="current"><a href="annotated.html"><span>Klassen</span></a></li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="annotated.html"><span>Auflistung&#160;der&#160;Klassen</span></a></li>
+      <li><a href="functions.html"><span>Klassen-Elemente</span></a></li>
+    </ul>
+  </div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#signals">Signale</a> &#124;
+<a href="#pub-methods">Öffentliche Methoden</a> &#124;
+<a href="class_referee-members.html">Aufstellung aller Elemente</a>  </div>
+  <div class="headertitle">
+<div class="title">Referee Klassenreferenz</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Die Schiedsrichterklasse.  
+ <a href="class_referee.html#details">Mehr ...</a></p>
+
+<p><code>#include &lt;referee.h&gt;</code></p>
+
+<p>Abgeleitet von QObject.</p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="signals"></a>
+Signale</h2></td></tr>
+<tr class="memitem:aedd5beb57d27631143e753953b36cb56"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aedd5beb57d27631143e753953b36cb56"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#aedd5beb57d27631143e753953b36cb56">disconnected</a> ()</td></tr>
+<tr class="memdesc:aedd5beb57d27631143e753953b36cb56"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wird gesendet falls die Verbindung getrennt wird. <br/></td></tr>
+<tr class="separator:aedd5beb57d27631143e753953b36cb56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e3fdf88df36d9ba46208a5c8c7ef305"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0e3fdf88df36d9ba46208a5c8c7ef305"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a0e3fdf88df36d9ba46208a5c8c7ef305">detectionStart</a> ()</td></tr>
+<tr class="memdesc:a0e3fdf88df36d9ba46208a5c8c7ef305"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wird gesendet, wenn die Zeit zur Spielfelderkennung beginnt. <br/></td></tr>
+<tr class="separator:a0e3fdf88df36d9ba46208a5c8c7ef305"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d1c4166d5efde05197237a4d284139a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d1c4166d5efde05197237a4d284139a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a9d1c4166d5efde05197237a4d284139a">gameStart</a> ()</td></tr>
+<tr class="memdesc:a9d1c4166d5efde05197237a4d284139a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wird gesendet wenn der Wettkampf beginnt. <br/></td></tr>
+<tr class="separator:a9d1c4166d5efde05197237a4d284139a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa040d66348192aee1bf6c58005538bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afa040d66348192aee1bf6c58005538bb"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#afa040d66348192aee1bf6c58005538bb">gameOver</a> ()</td></tr>
+<tr class="memdesc:afa040d66348192aee1bf6c58005538bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wird gesendet wenn der Wettkampf auf Serverseite beendet wird. <br/></td></tr>
+<tr class="separator:afa040d66348192aee1bf6c58005538bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6051212a1926861e657ac4223ff0c7a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac6051212a1926861e657ac4223ff0c7a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#ac6051212a1926861e657ac4223ff0c7a">abValues</a> (double a, double b)</td></tr>
+<tr class="memdesc:ac6051212a1926861e657ac4223ff0c7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gibt euch die richtigen Seitenlängen. <br/></td></tr>
+<tr class="separator:ac6051212a1926861e657ac4223ff0c7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82377f4cd408873060cb7248c948e655"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a82377f4cd408873060cb7248c948e655"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a82377f4cd408873060cb7248c948e655">trueColorOfTeam</a> (TeamColor color)</td></tr>
+<tr class="memdesc:a82377f4cd408873060cb7248c948e655"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gibt euch die richtige Teamfarbe. <br/></td></tr>
+<tr class="separator:a82377f4cd408873060cb7248c948e655"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7abc8a64caef69bf06acf5103fb9bd18"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7abc8a64caef69bf06acf5103fb9bd18"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a7abc8a64caef69bf06acf5103fb9bd18">stopMovement</a> ()</td></tr>
+<tr class="memdesc:a7abc8a64caef69bf06acf5103fb9bd18"><td class="mdescLeft">&#160;</td><td class="mdescRight">Roboter muss seine Bewegung sofort stoppen. <br/></td></tr>
+<tr class="separator:a7abc8a64caef69bf06acf5103fb9bd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab15c4c6a30018ca5dcbf7f1bbf49db17"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab15c4c6a30018ca5dcbf7f1bbf49db17"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#ab15c4c6a30018ca5dcbf7f1bbf49db17">connected</a> ()</td></tr>
+<tr class="memdesc:ab15c4c6a30018ca5dcbf7f1bbf49db17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wird gesendet, falls die Verbindung zum Server erfolgreich war. <br/></td></tr>
+<tr class="separator:ab15c4c6a30018ca5dcbf7f1bbf49db17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8faa19a5d05b8e37d446ada8de778c5a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8faa19a5d05b8e37d446ada8de778c5a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a8faa19a5d05b8e37d446ada8de778c5a">connectFailed</a> ()</td></tr>
+<tr class="memdesc:a8faa19a5d05b8e37d446ada8de778c5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Wird gesendet, falls die Verbindung zum Server nicht aufgebaut werden konnte. <br/></td></tr>
+<tr class="separator:a8faa19a5d05b8e37d446ada8de778c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Öffentliche Methoden</h2></td></tr>
+<tr class="memitem:a4369658594b10d74d92fcde86a2652bb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a4369658594b10d74d92fcde86a2652bb">Referee</a> (int teamID, QObject *parent=0)</td></tr>
+<tr class="memdesc:a4369658594b10d74d92fcde86a2652bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erstellt einen Schiedsrichter.  <a href="#a4369658594b10d74d92fcde86a2652bb">Mehr ...</a><br/></td></tr>
+<tr class="separator:a4369658594b10d74d92fcde86a2652bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab919b230765bc65bbc21ccffc8298341"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab919b230765bc65bbc21ccffc8298341"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#ab919b230765bc65bbc21ccffc8298341">~Referee</a> ()</td></tr>
+<tr class="memdesc:ab919b230765bc65bbc21ccffc8298341"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destruktor. <br/></td></tr>
+<tr class="separator:ab919b230765bc65bbc21ccffc8298341"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0028d0a7f7c1a52f28939749e3c9b4e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#ac0028d0a7f7c1a52f28939749e3c9b4e">setVerbose</a> (bool enabled)</td></tr>
+<tr class="memdesc:ac0028d0a7f7c1a52f28939749e3c9b4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gibt Meldungen auf der Konsole aus.  <a href="#ac0028d0a7f7c1a52f28939749e3c9b4e">Mehr ...</a><br/></td></tr>
+<tr class="separator:ac0028d0a7f7c1a52f28939749e3c9b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8395096ba17953743d2d4a5772e1f11d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8395096ba17953743d2d4a5772e1f11d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a8395096ba17953743d2d4a5772e1f11d">isVerbose</a> ()</td></tr>
+<tr class="memdesc:a8395096ba17953743d2d4a5772e1f11d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fragt ab, ob meldungen auf der Konsole ausgegeben werden. <br/></td></tr>
+<tr class="separator:a8395096ba17953743d2d4a5772e1f11d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03c51c951948a36902a358aba95ce956"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a03c51c951948a36902a358aba95ce956">connectToServer</a> (const QString &amp;ip, int port)</td></tr>
+<tr class="memdesc:a03c51c951948a36902a358aba95ce956"><td class="mdescLeft">&#160;</td><td class="mdescRight">Verbindet zum Server Angelina.  <a href="#a03c51c951948a36902a358aba95ce956">Mehr ...</a><br/></td></tr>
+<tr class="separator:a03c51c951948a36902a358aba95ce956"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c7f92e5708c09801a853148d8be884"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a87c7f92e5708c09801a853148d8be884"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a87c7f92e5708c09801a853148d8be884">reportReady</a> ()</td></tr>
+<tr class="memdesc:a87c7f92e5708c09801a853148d8be884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gibt das Zeichen, dass ihr bereit seid. <br/></td></tr>
+<tr class="separator:a87c7f92e5708c09801a853148d8be884"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a915943139ba88ca96a9f773847d779ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a915943139ba88ca96a9f773847d779ad"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a915943139ba88ca96a9f773847d779ad">reportDone</a> ()</td></tr>
+<tr class="memdesc:a915943139ba88ca96a9f773847d779ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gibt das Zeichen, dass ihr Fertig seid bzw. aufhören möchtet (DONE). <br/></td></tr>
+<tr class="separator:a915943139ba88ca96a9f773847d779ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0488de79569ef023f3b8899e31f5d3ca"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0488de79569ef023f3b8899e31f5d3ca"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a0488de79569ef023f3b8899e31f5d3ca">sendAlive</a> ()</td></tr>
+<tr class="memdesc:a0488de79569ef023f3b8899e31f5d3ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ruft diese Funktion mindestens alle 45 Sekunden auf um Angelina mitzuteilen, dass ihr noch funktioniert ;-). <br/></td></tr>
+<tr class="separator:a0488de79569ef023f3b8899e31f5d3ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51b5516c394003aa26302ef926212298"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a51b5516c394003aa26302ef926212298">tellAbRatio</a> (double ratio)</td></tr>
+<tr class="memdesc:a51b5516c394003aa26302ef926212298"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sendet das Seitenverhältnis an Angelina.  <a href="#a51b5516c394003aa26302ef926212298">Mehr ...</a><br/></td></tr>
+<tr class="separator:a51b5516c394003aa26302ef926212298"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20379801174e3407ba91652abc18476c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#a20379801174e3407ba91652abc18476c">tellTeamColor</a> (TeamColor color)</td></tr>
+<tr class="memdesc:a20379801174e3407ba91652abc18476c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sendet die eigene Farbe.  <a href="#a20379801174e3407ba91652abc18476c">Mehr ...</a><br/></td></tr>
+<tr class="separator:a20379801174e3407ba91652abc18476c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb3cfd772992dcb36538e634c4adb20f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb3cfd772992dcb36538e634c4adb20f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#afb3cfd772992dcb36538e634c4adb20f">reportGoal</a> ()</td></tr>
+<tr class="memdesc:afb3cfd772992dcb36538e634c4adb20f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Teilt Angelina mit, dass ein Tor geschossen wurde. <br/></td></tr>
+<tr class="separator:afb3cfd772992dcb36538e634c4adb20f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad882849d654f17fe0805e243ff25e7d8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#ad882849d654f17fe0805e243ff25e7d8">tellEgoPos</a> (double posX, double posY)</td></tr>
+<tr class="memdesc:ad882849d654f17fe0805e243ff25e7d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sendet die eigene Position an Angelina (optional).  <a href="#ad882849d654f17fe0805e243ff25e7d8">Mehr ...</a><br/></td></tr>
+<tr class="separator:ad882849d654f17fe0805e243ff25e7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3e4bb2a2c6458aba245afccbfbaf818"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa3e4bb2a2c6458aba245afccbfbaf818"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_referee.html#aa3e4bb2a2c6458aba245afccbfbaf818">isConnected</a> ()</td></tr>
+<tr class="memdesc:aa3e4bb2a2c6458aba245afccbfbaf818"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, wenn die Verbindung zum Server existiert. <br/></td></tr>
+<tr class="separator:aa3e4bb2a2c6458aba245afccbfbaf818"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">Ausführliche Beschreibung</h2>
+<div class="textblock"><p>Die Schiedsrichterklasse. </p>
+<p>Die Schiedsrichterklasse kommuniziert mit Angelina und dient dazu dem Server die Ergebnisse mitzuteilen </p>
+</div><h2 class="groupheader">Beschreibung der Konstruktoren und Destruktoren</h2>
+<a class="anchor" id="a4369658594b10d74d92fcde86a2652bb"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Referee::Referee </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>teamID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">QObject *&#160;</td>
+          <td class="paramname"><em>parent</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Erstellt einen Schiedsrichter. </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">teamID</td><td>Eure teamID (einfach die Nummer eurer CPP Gruppe). </td></tr>
+    <tr><td class="paramname">*parent</td><td>Das Eltern-Objekt. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Dokumentation der Elementfunktionen</h2>
+<a class="anchor" id="a03c51c951948a36902a358aba95ce956"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Referee::connectToServer </td>
+          <td>(</td>
+          <td class="paramtype">const QString &amp;&#160;</td>
+          <td class="paramname"><em>ip</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>port</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Verbindet zum Server Angelina. </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">&amp;ip</td><td>Die IP-Adresse z.B. 127.0.0.1 (localhost) zum Testen an einem Computer. </td></tr>
+    <tr><td class="paramname">port</td><td>Der Port z.B. 10000. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ac0028d0a7f7c1a52f28939749e3c9b4e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Referee::setVerbose </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>enabled</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Gibt Meldungen auf der Konsole aus. </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">enabled</td><td>Der Ein- Aus-Schalter. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a51b5516c394003aa26302ef926212298"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Referee::tellAbRatio </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>ratio</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sendet das Seitenverhältnis an Angelina. </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ratio</td><td>Ergebnis von a/b z.B 0.5 (a und b in Metern). </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="ad882849d654f17fe0805e243ff25e7d8"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Referee::tellEgoPos </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>posX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>posY</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sendet die eigene Position an Angelina (optional). </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">posX</td><td>Position in a-Richtung in Metern vom linken oberen Spielfeldrand </td></tr>
+    <tr><td class="paramname">posY</td><td>Position in b-Richtung in Metern vom linken oberen Spielfeldrand </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a class="anchor" id="a20379801174e3407ba91652abc18476c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Referee::tellTeamColor </td>
+          <td>(</td>
+          <td class="paramtype">TeamColor&#160;</td>
+          <td class="paramname"><em>color</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sendet die eigene Farbe. </p>
+<dl class="params"><dt>Parameter</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">color</td><td>Die Farbe des eigenen Teams (yellow oder blue) </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<hr/>Die Dokumentation für diese Klasse wurde erzeugt aufgrund der Dateien:<ul>
+<li>/home/carlo-vd/SVN/LDV_14cpp7/trunk/Projekt/3rdparty/hermes/referee.h</li>
+<li>/home/carlo-vd/SVN/LDV_14cpp7/trunk/Projekt/3rdparty/hermes/referee.cpp</li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Erzeugt von &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>

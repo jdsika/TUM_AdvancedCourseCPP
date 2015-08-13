@@ -1,0 +1,1 @@
+set(AM_OLD_COMPILE_SETTINGS "BOOST_SIGNALS_NO_DEPRECATION_WARNING;QT_CORE_LIB;QT_NETWORK_LIB;QT_NO_DEBUG;QT_NO_KEYWORDS ~~~ /home/carlo-vd/SVN/LDV_14cpp7/Projekt/release/3rdparty/hermes;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes;/usr/include/qt5;/usr/include/qt5/QtNetwork;/usr/include/qt5/QtCore;/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64 ~~~  ~~~ FALSE ~~~ ")

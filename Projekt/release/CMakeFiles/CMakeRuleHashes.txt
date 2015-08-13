@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+00373a995c6e7f5d0cd04dd34e5eabf7 3rdparty/hermes/CMakeFiles/referee-doc
+ec3cb0dd7790db82f8ae814f907b897b 3rdparty/hermes/CMakeFiles/referee_automoc
+73f9e6350f930d78d21e0c9e2fc26d63 CMakeFiles/Hockey_automoc
+6aa6f7087ecc7f772a4f49ff1f119caa CMakeFiles/doc
+917e2d0ac358e16c2ccdd8d56ed0f295 ui_mainwindow.h

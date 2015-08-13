@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+ <qresource>
+     <file>../icons/disconnect.png</file>
+     <file>../icons/editplayground.png</file>
+     <file>../icons/gameover.png</file>
+     <file>../icons/listen.png</file>
+     <file>../icons/persons.png</file>
+     <file>../icons/start.png</file>
+ </qresource>
+ </RCC>

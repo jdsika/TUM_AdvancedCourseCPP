@@ -1,0 +1,6 @@
+/home/carlo-vd/SVN/LDV_14cpp7/Projekt/release/CMakeFiles/Hockey.dir
+/home/carlo-vd/SVN/LDV_14cpp7/Projekt/release/CMakeFiles/Hockey_automoc.dir
+/home/carlo-vd/SVN/LDV_14cpp7/Projekt/release/CMakeFiles/doc.dir
+/home/carlo-vd/SVN/LDV_14cpp7/Projekt/release/3rdparty/hermes/CMakeFiles/referee.dir
+/home/carlo-vd/SVN/LDV_14cpp7/Projekt/release/3rdparty/hermes/CMakeFiles/referee-doc.dir
+/home/carlo-vd/SVN/LDV_14cpp7/Projekt/release/3rdparty/hermes/CMakeFiles/referee_automoc.dir

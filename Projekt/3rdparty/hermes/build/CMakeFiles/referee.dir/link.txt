@@ -1,0 +1,2 @@
+/usr/bin/ar cr libreferee.a  CMakeFiles/referee.dir/hermes.o CMakeFiles/referee.dir/referee.o
+/usr/bin/ranlib libreferee.a

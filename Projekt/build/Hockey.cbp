@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="Hockey" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\;CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\;CMake Files\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\usr\local\share\cmake\;CMake Files\..\..\..\..\..\usr\local\share\cmake\Modules\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\OpenCV\;CMake Files\3rdparty\;CMake Files\3rdparty\hermes\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Hockey">
+         <Option output="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Hockey" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_SIGNALS_NO_DEPRECATION_WARNING" />
+            <Add option="-DQT_NO_KEYWORDS" />
+            <Add option="-DQT_CONCURRENT_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtConcurrent" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtGui" />
+            <Add directory="/usr/include/qt5/QtNetwork" />
+            <Add directory="/usr/include/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/player-3.1" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 Hockey" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Hockey/fast">
+         <Option output="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Hockey" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_SIGNALS_NO_DEPRECATION_WARNING" />
+            <Add option="-DQT_NO_KEYWORDS" />
+            <Add option="-DQT_CONCURRENT_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/opencv" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtConcurrent" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtGui" />
+            <Add directory="/usr/include/qt5/QtNetwork" />
+            <Add directory="/usr/include/qt5/QtPrintSupport" />
+            <Add directory="/usr/include/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/local/include/player-3.1" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 Hockey/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="Hockey_automoc">
+         <Option working_dir="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 Hockey_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="doc">
+         <Option working_dir="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 doc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="referee">
+         <Option output="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/libreferee.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_SIGNALS_NO_DEPRECATION_WARNING" />
+            <Add option="-DQT_NO_KEYWORDS" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 referee" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="referee/fast">
+         <Option output="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/libreferee.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DBOOST_SIGNALS_NO_DEPRECATION_WARNING" />
+            <Add option="-DQT_NO_KEYWORDS" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes" />
+            <Add directory="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtNetwork" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 referee/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="referee-doc">
+         <Option working_dir="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 referee-doc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="referee_automoc">
+         <Option working_dir="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 referee_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/carlo-vd/SVN/LDV_14cpp7/Projekt/build/3rdparty/hermes/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes/hermes.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes/referee.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/AI/game.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/AI/gameengine.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/AI/pathplanning.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Actor/actorLowLevel.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Actor/actorhighlevel.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Actor/spline.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Data/mapdata.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Data/obstacle.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/GUI/mainwindow.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/GUI/qcustomplot.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Logging/log.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Main/main.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Main/player.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Main/robotThread.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/cam.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/medianfilter.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/medianfilter_new.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/orientierung.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/sensorLowLevel.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/sensorhighlevel.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/trilateration.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/constrainedlaserdata.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/position.cpp">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes/hermes.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes/hermescodes.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes/referee.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/AI/game.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/AI/gameengine.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/AI/pathplanning.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Actor/actorLowLevel.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Actor/actorhighlevel.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Actor/spline.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Data/define.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Data/mapdata.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Data/obstacle.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/GUI/cvimagewidget.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/GUI/mainwindow.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/GUI/mainwindow.ui">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/GUI/qcustomplot.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Logging/log.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Main/player.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Main/robotThread.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/cam.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/medianfilter.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/medianfilter_new.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/orientierung.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/sensorLowLevel.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/sensorhighlevel.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Sensor/trilateration.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/constrainedlaserdata.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/laserplotdata.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/logparams.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/pathplotdata.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/pidparams.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/pidplotdata.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/Structs/position.h">
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Concurrent/Qt5ConcurrentConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Concurrent\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/local/share/cmake/Modules/UsePlayerC++.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/local/share/cmake/Modules/PlayerUtils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/local/share/cmake/Modules/UsePlayerPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/local/share/cmake/Modules/PlayerUtils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\local\share\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/../../../../../usr/share/OpenCV/OpenCVModules-release.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\3rdparty\hermes\" />
+      </Unit>
+      <Unit filename="/home/carlo-vd/SVN/LDV_14cpp7/Projekt/3rdparty/hermes/referee.doxy">
+          <Option virtualFolder="CMake Files\3rdparty\hermes\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
